@@ -54,7 +54,7 @@ TUDataset → Claim 3 paper-scale synthetic → evaluator package → Trackio/OA
 repair → complete-raw release candidate`.
 
 The winning formal branch is
-`orx/release-candidate-complete-raw-oasis-evidence` at
+`release/raw-oasis-evidence` at
 `e11a535552fc6f854fe5c07086034992ae426eae`. Its cumulative run
 `4df2d784-42ce-4fa3-af50-3d03063f38fb` took 38,009.734 seconds on Hugging Face
 `cpu-upgrade`; the runner exposed 64 logical CPUs while each numerical process
