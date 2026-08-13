@@ -16,7 +16,7 @@ def _(mo):
     mo.md(r"""
     # Convex Distance Operator Transport: an evidence-first reproduction
 
-    ![Open in molab](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-repro-nPC7M7XLEv-convex-distance-operator-transport-a-convex-and-geometry-preserving-formulat/main/reports/cdot-reproduction/images/claim3_headline.svg)
+    ![Open in molab](https://raw.githubusercontent.com/MachineLearning-Nerd/icml26-convex-distance-operator-transport/main/reports/cdot-reproduction/images/claim3_headline.svg)
 
     The central empirical question is whether CDOT lowers matching error
     while preserving the paper's convex formulation. The chart is
@@ -119,7 +119,7 @@ def _(mo):
     control. Any failed gate exits nonzero. Formal compute used only
     Hugging Face `cpu-upgrade`; no GPU was used.
 
-    Read the [full illustrated report](https://github.com/MachineLearning-Nerd/icml26-repro-nPC7M7XLEv-convex-distance-operator-transport-a-convex-and-geometry-preserving-formulat/blob/main/reports/cdot-reproduction/report.md)
+    Read the [full illustrated report](https://github.com/MachineLearning-Nerd/icml26-convex-distance-operator-transport/blob/main/reports/cdot-reproduction/report.md)
     for source assumptions, deviations, and lineage.
     """)
     return

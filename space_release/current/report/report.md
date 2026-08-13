@@ -123,7 +123,7 @@ score remains `4/12` until the evaluator processes a new Hugging Face revision.
 ## Reproducibility and lineage
 
 The cumulative winning branch is
-`orx/claim-3-full-scale-synthetic-table-2-cpu-reprodu` at
+`audit/claim3-synthetic-table2` at
 `2517fb252abbd2aef3c8666e6337b44f6d198724`. The Claim 3 run ID is
 `8a1fe020-2a83-4a6a-bbc6-910568b8b5c1`; its scientific runtime was
 19,878.94 seconds with 64 logical CPUs allocated as four workers × 16
