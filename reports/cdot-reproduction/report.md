@@ -141,7 +141,7 @@ score remains `4/12` until the evaluator processes a new Hugging Face revision.
 ## Reproducibility and lineage
 
 The current cumulative evidence branch is
-`orx/release-candidate-complete-raw-oasis-evidence` at
+`release/raw-oasis-evidence` at
 `e11a535552fc6f854fe5c07086034992ae426eae`. Formal run
 `4df2d784-42ce-4fa3-af50-3d03063f38fb` completed in 38,009.73 seconds
 with 64 logical CPUs exposed on Hugging Face `cpu-upgrade`. The OASIS route
