@@ -58,7 +58,7 @@ TUDataset → Claim 3 paper-scale synthetic → evaluator package → OASIS repa
 → complete raw evidence → Lean kernel certificates`.
 
 The winning formal node is
-`orx/lean-kernel-certificates-for-claims-1-2-and-6` at
+`audit/lean-kernel-claims1-2-6` at
 `4aadbbfe008cc725fbba6005ccbadacb929db40c`. Its completed cumulative run is
 `6b7ccf1e-9abb-4909-aa87-0712d870cebc` on Hugging Face job
 `DineshAI/6a6a9402b36a6516e96a166d`.
