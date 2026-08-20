@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If this audit or its evidence package is useful, please cite the paper and this repository."
+title: "Independent claim audit of Convex Distance Operator Transport"
+version: "0.1.0"
+date-released: 2026-08-20
+authors:
+  - family-names: Chung
+    given-names: Junhyoung
+  - family-names: Song
+    given-names: Euijong
+  - family-names: Kim
+    given-names: Won Hwa
+  - family-names: Park
+    given-names: Gunwoong
+repository-code: https://github.com/MachineLearning-Nerd/icml26-convex-distance-operator-transport
+url: https://arxiv.org/abs/2606.02047
+doi: 10.48550/arXiv.2606.02047
+keywords:
+  - optimal transport
+  - graph matching
+  - Gromov-Wasserstein
+  - convex optimization
+  - reproduction audit

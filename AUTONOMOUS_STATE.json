@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "paper": "Convex Distance Operator Transport: A Convex and Geometry-Preserving Formulation",
+  "arxiv": "2606.02047",
+  "phase": "standardized_claim_audit_publication",
+  "overall_status": "VERIFIED_C1_C2_C3_C6_FALSIFIED_C4_C5_LIVE_SCORE_12_OF_12",
+  "next_action": "Retain the 12/12 judge record and immutable Space provenance; keep later GitHub documentation separate from the judged artifact.",
+  "current_score_claim": true,
+  "publication_allowed": false,
+  "author_endorsement_claimed": false,
+  "claim_statuses": {
+    "C1": "VERIFIED_SCOPED",
+    "C2": "VERIFIED_SCOPED",
+    "C3": "VERIFIED_SCOPED",
+    "C4": "FALSIFIED_SCOPED",
+    "C5": "FALSIFIED_SCOPED",
+    "C6": "VERIFIED_SCOPED"
+  },
+  "source": {
+    "version": "arXiv:2606.02047v1",
+    "retrieved_utc": "2026-07-28T12:12:31Z",
+    "html_sha256": "602040fe82ec6bd4c0422ee488315d8e09f86bef50c6f06d4be61f942094d43f",
+    "pdf_sha256": "fe1dda5d0e3f2aea86b9b3b5ebf79b79cbc7d06e3fcbe4b20b6f097cc556375d"
+  },
+  "repository": {
+    "owner": "MachineLearning-Nerd",
+    "canonical_email": "MachineLearning-Nerd@users.noreply.github.com",
+    "github": "https://github.com/MachineLearning-Nerd/icml26-convex-distance-operator-transport",
+    "old_slug": "icml26-repro-nPC7M7XLEv-convex-distance-operator-transport-a-convex-and-geometry-preserving-formulat",
+    "branches": 13,
+    "expected_reachable_commits": 45,
+    "pre_normalization_head": "f18f140410b4c0132bb5e45c57ff7b0e7d0101a0",
+    "recovery_bundle_sha256": "d3de9c82fd8651c87b214275124e2afda533e1c7485548b4f4febfdac3f5c528"
+  },
+  "live_external_result": {
+    "space_id": "DineshAI/nPC7M7XLEv",
+    "judged_revision": "819b602292066602b465aa8ac59babce4f673b95",
+    "judged_at": "2026-07-30T06:11:11+00:00",
+    "score": "12/12"
+  }
+}

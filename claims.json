@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "paper": "arXiv:2606.02047v1",
+  "overall_status": "VERIFIED_C1_C2_C3_C6_FALSIFIED_C4_C5_LIVE_SCORE_12_OF_12",
+  "claims": [
+    {
+      "id": "C1",
+      "title": "Convex quadratic program and attainment",
+      "audit_status": "VERIFIED_SCOPED",
+      "judge_verdict": "VERIFIED",
+      "live_points": "2/2",
+      "source_anchors": ["Theorem 3.4", "Appendix G.3"],
+      "evidence_paths": [
+        ".openresearch/artifacts/claim_1/raw/claim_1_result.json",
+        ".openresearch/artifacts/formal_theorems/raw/formal_gate_summary.json"
+      ],
+      "production_path": "src/cdot_repro/claim1.py and formal/CDOTProofs.lean",
+      "how_claim_is_produced": "Kernel-check compact attainment and Jensen convexity, then audit 48 independent quadratic forms and reject a negated-squared-norm control.",
+      "limitation": "Paper-specific continuity and lower-semicontinuity are explicit premises."
+    },
+    {
+      "id": "C2",
+      "title": "Pseudometric and dispersion gap",
+      "audit_status": "VERIFIED_SCOPED",
+      "judge_verdict": "VERIFIED",
+      "live_points": "2/2",
+      "source_anchors": ["Theorems 3.5 and 3.7", "Appendices G.4-G.5"],
+      "evidence_paths": [
+        ".openresearch/artifacts/claim_2/raw/claim_2_result.json",
+        ".openresearch/artifacts/claim_2/raw/claim_2_independent_checker.json",
+        ".openresearch/artifacts/formal_theorems/raw/formal_gate_summary.json"
+      ],
+      "production_path": "src/cdot_repro/claim2.py and formal/CDOTProofs.lean",
+      "how_claim_is_produced": "Kernel-check weighted Minkowski and conditional variance, enumerate 320 declared cells and 32 witnesses, and reject a squared-discrepancy triangle control.",
+      "limitation": "Finite checks do not replace the population theorem."
+    },
+    {
+      "id": "C3",
+      "title": "Synthetic Table 2 method ordering",
+      "audit_status": "VERIFIED_SCOPED",
+      "judge_verdict": "VERIFIED",
+      "live_points": "2/2",
+      "source_anchors": ["Section 6.1", "Table 2", "Appendix H.2"],
+      "evidence_paths": [
+        ".openresearch/artifacts/claim_3/raw/claim_3_result.json",
+        ".openresearch/artifacts/claim_3/raw/claim_3_independent_checker.json"
+      ],
+      "production_path": "src/cdot_repro/claim3.py",
+      "how_claim_is_produced": "Run N=2000, 100 trials, T=200, alpha=0.5, preserve all 300 method rows, and require both paired interval upper endpoints below zero.",
+      "limitation": "Seeds, initialization, and CDOT step-size policy are disclosed independent choices."
+    },
+    {
+      "id": "C4",
+      "title": "OASIS-3 cohort and Table 3",
+      "audit_status": "FALSIFIED_SCOPED",
+      "judge_verdict": "FALSIFIED",
+      "live_points": "2/2",
+      "source_anchors": ["Table 3", "Appendix H.3"],
+      "evidence_paths": [
+        ".openresearch/artifacts/claim_4/raw/claim_4_result.json",
+        ".openresearch/artifacts/claim_4/raw/claim_4_independent_checker.json"
+      ],
+      "production_path": "src/cdot_repro/claim4.py",
+      "how_claim_is_produced": "Hash and parse all 975 archive sessions and 696 subjects, identify OAS30938 with a 168-node session, preserve 19,800 all-pair rows, and reject fabricated padding.",
+      "limitation": "The cohort invariant is falsified; directional rerun values and the literal premise are separate evidence."
+    },
+    {
+      "id": "C5",
+      "title": "TUDataset graph classification",
+      "audit_status": "FALSIFIED_SCOPED",
+      "judge_verdict": "FALSIFIED",
+      "live_points": "2/2",
+      "source_anchors": ["Table 4", "Appendix H.4"],
+      "evidence_paths": [
+        ".openresearch/artifacts/claim_5/raw/claim_5_result.json",
+        ".openresearch/artifacts/claim_5/raw/claim_5_independent_checker.json"
+      ],
+      "production_path": "src/cdot_repro/claim5.py",
+      "how_claim_is_produced": "Run all graph pairs, the published alpha/C/gamma grids, nested stratified CV, three outer seeds, and permuted-label controls; ENZYMES reverses CDOT and FGW.",
+      "limitation": "Several preprocessing and stopping choices are unpublished and remain protocol risks."
+    },
+    {
+      "id": "C6",
+      "title": "Risk bound and consistency",
+      "audit_status": "VERIFIED_SCOPED",
+      "judge_verdict": "VERIFIED",
+      "live_points": "2/2",
+      "source_anchors": ["Theorems 5.6-5.7", "Appendix G.6"],
+      "evidence_paths": [
+        ".openresearch/artifacts/claim_6/raw/claim_6_result.json",
+        ".openresearch/artifacts/formal_theorems/raw/formal_gate_summary.json"
+      ],
+      "production_path": "src/cdot_repro/claim6.py and formal/CDOTProofs.lean",
+      "how_claim_is_produced": "Kernel-check the E1+E2+E3 bound, optimization rate, consistency squeeze, and invalid T_n=n control, then run two diagnostic panels.",
+      "limitation": "Measure, operator, and empirical-process assumptions remain explicit premises."
+    }
+  ]
+}

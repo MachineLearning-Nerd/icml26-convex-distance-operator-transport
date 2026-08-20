@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "paper": "arXiv:2606.02047v1",
+  "source_sha256": "602040fe82ec6bd4c0422ee488315d8e09f86bef50c6f06d4be61f942094d43f",
+  "overall_verdict": "VERIFIED_C1_C2_C3_C6_FALSIFIED_C4_C5_LIVE_SCORE_12_OF_12",
+  "claim_statuses": {
+    "C1": "VERIFIED_SCOPED",
+    "C2": "VERIFIED_SCOPED",
+    "C3": "VERIFIED_SCOPED",
+    "C4": "FALSIFIED_SCOPED",
+    "C5": "FALSIFIED_SCOPED",
+    "C6": "VERIFIED_SCOPED"
+  },
+  "key_evidence": {
+    "C1": {
+      "independent_quadratic_forms_checked": 48,
+      "independent_quadratic_failures": 0,
+      "minimum_jensen_gap": -8.881784197001252e-16,
+      "negative_control_jensen_excess": 0.017777777777777774
+    },
+    "C2": {
+      "complete_declared_two_point_domain_cells": 320,
+      "diffuse_dispersion_witnesses": 32,
+      "maximum_independent_dispersion_error": 1.942890293094024e-16,
+      "squared_distance_control_rejected": true
+    },
+    "C3": {
+      "total_N": 2000,
+      "trials": 100,
+      "iterations": 200,
+      "cdot_mean_mse": 0.001693640051,
+      "fgw_mean_mse": 0.003514014474,
+      "isorank_mean_mse": 0.003377851629,
+      "paired_ci95_high_cdot_minus_fgw": -0.001786151398,
+      "paired_ci95_high_cdot_minus_isorank": -0.001649891199
+    },
+    "C4": {
+      "archive_sessions": 975,
+      "archive_subjects": 696,
+      "valid_170_node_subjects": 695,
+      "counterexample_subject": "OAS30938",
+      "counterexample_node_count": 168,
+      "all_pair_rows": 19800
+    },
+    "C5": {
+      "mutag_cdot_mean_accuracy": 0.8408382066,
+      "mutag_fgw_mean_accuracy": 0.8335282651,
+      "enzymes_cdot_mean_accuracy": 0.3922222222,
+      "enzymes_fgw_mean_accuracy": 0.4477777778,
+      "enzymes_cdot_minus_fgw": -0.0555555556
+    },
+    "C6": {
+      "maximum_final_fw_duality_gap": 9.900242946852059e-06,
+      "minimum_final_theorem_bound": 0.04680643588493418,
+      "invalid_control_limit_indicator": 15.953261927945473
+    }
+  },
+  "live_external_result": {
+    "space_id": "DineshAI/nPC7M7XLEv",
+    "judged_revision": "819b602292066602b465aa8ac59babce4f673b95",
+    "judged_at": "2026-07-30T06:11:11+00:00",
+    "quality": "high",
+    "score": "12/12",
+    "current_score_claim": true
+  },
+  "publication": {
+    "publication_allowed": false,
+    "author_endorsement_claimed": false
+  },
+  "boundary": "Claims 1, 2, and 6 are kernel-checked under explicit paper premises; Claim 3 is verified at the declared synthetic scale; Claim 4 is contradicted by a primary-data cohort counterexample; Claim 5 is contradicted by a stable ENZYMES reversal. The exact live evaluator record is 12/12."
+}

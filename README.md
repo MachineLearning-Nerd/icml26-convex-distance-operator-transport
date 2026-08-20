@@ -4,6 +4,13 @@
 
 Independent claim-by-claim reproduction audit for [*Convex Distance Operator Transport: A Convex and Geometry-Preserving Formulation*](https://arxiv.org/abs/2606.02047), by Junhyoung Chung, Euijong Song, Won Hwa Kim, and Gunwoong Park. This repository is an independent reproduction and evidence audit, not the authors' official implementation.
 
+The standardized dossier is available in [STATUS.md](STATUS.md),
+[CLAIM_EVIDENCE.md](CLAIM_EVIDENCE.md), [SOURCE_AUDIT.md](SOURCE_AUDIT.md),
+[ENVIRONMENT.md](ENVIRONMENT.md), [REPORT.md](REPORT.md),
+[CITATION.cff](CITATION.cff), [AUTHOR_THANK_YOU.md](AUTHOR_THANK_YOU.md),
+[claims.json](claims.json), [reproduction_verdicts.json](reproduction_verdicts.json),
+and [verify_final.py](verify_final.py).
+
 ## Paper in one paragraph
 
 The paper introduces Convex Distance Operator Transport (CDOT), an optimal-transport framework for aligning distributions across heterogeneous domains while preserving feature correspondence and intrinsic geometry. Its operator regularization yields a convex formulation, a pseudometric on attributed compact metric-measure spaces, a dispersion-gap relationship to Gromov–Wasserstein transport, and a finite-sample risk bound with consistency under a globally convergent Frank–Wolfe schedule. The experiments cover synthetic point clouds, brain connectomes, and graph-classification benchmarks.
